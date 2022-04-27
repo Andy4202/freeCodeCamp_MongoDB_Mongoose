@@ -23,9 +23,9 @@ const createAndSavePerson = (done) => {
 
 //Array of people
 const arrayOfPeople = [
-  {name: "Hermione Granger", age: 17, favoriteFoods: ["Spaghetti Bolognese"]},
-  {name: "Ronald Weasley", age: 17, favoriteFoods: ["Roast Beef"]},
-  {name: "Luna Lovegood", age: 17, favoriteFoods: ["Cake"]}
+  {name: "Hermione Granger", age: 17, favoriteFoods: ["Spaghetti Bolognese", "burrito"]},
+  {name: "Ronald Weasley", age: 17, favoriteFoods: ["Roast Beef", "burrito"]},
+  {name: "Luna Lovegood", age: 17, favoriteFoods: ["Cake", "burrito"]}
 ]
 
 const createManyPeople = (arrayOfPeople, done) => {
